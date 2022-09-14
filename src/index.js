@@ -1,8 +1,11 @@
 import './css/styles.css';
 import { fetchCountries } from './js/fetchCountries';
+
 import { countryСardTeemplate, countryListTemplate } from './js/markupTemplate';
 import { refs } from './js/refs-elements';
+
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+
 import debounce from 'lodash.debounce';
 
 const DEBOUNCE_DELAY = 300;
